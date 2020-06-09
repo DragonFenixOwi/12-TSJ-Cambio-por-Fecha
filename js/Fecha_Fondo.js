@@ -128,7 +128,7 @@ if (resultado_final ==  7)
 
 
 /*
-    Vizualizar colores elegidos arriba, para cada fecha
+    Vizualizar colores elegidos  para cada día 
 */
 
 lunes.addEventListener("click", function () 
