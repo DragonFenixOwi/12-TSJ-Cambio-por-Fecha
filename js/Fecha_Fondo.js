@@ -23,7 +23,11 @@ var domingo = document.getElementById("Domingo");
     Modificando Estilo para botones
 */
 
-
+/*
+    ---------------
+        ESTILO
+    --------------
+*/
 
 
 //color del boton
@@ -37,12 +41,12 @@ domingo.style.backgroundColor = "#01698e";
 
 
 
-
 /*
     ----------------
         EVENTOS
     ----------------
 */
+
 
 
 lunes.addEventListener("click", function () 
@@ -61,7 +65,7 @@ miercoles.addEventListener("click", function ()
     });
 Jueves.addEventListener("click", function () 
     {
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "purple";
     });
 
 viernes.addEventListener("click", function () 
@@ -76,8 +80,22 @@ sabado.addEventListener("click", function ()
 
 domingo.addEventListener("click", function () 
     {
-        document.body.style.backgroundColor = "purple";
+        document.body.style.backgroundColor = "white";
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
